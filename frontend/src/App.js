@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 
 // API Functions
-const BASE = "http://localhost:5000";
+const BASE = "https://coep-campus-navigation-backend.vercel.app/";
 
 async function getGraph() {
   const res = await fetch(`${BASE}/admin/graph`);
